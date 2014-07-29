@@ -136,7 +136,7 @@ function addWhatTranscludesEachLink (){
 		processPageLinks( mw.config.get( 'wgPageName' ) );
 	});
 }
-if ( mw.config.get( 'wgAction' ) === 'view' || mw.config.get( 'wgAction' ) === 'purge' ) {
+if ( $.inArray(mw.config.get( 'wgAction' ), ['view' , 'purge' ]) !== -1) {
 	$( addWhatTranscludesEachLink );
 }
 
