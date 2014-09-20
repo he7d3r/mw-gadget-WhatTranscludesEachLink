@@ -2,7 +2,6 @@
  * Script que gera uma tabela de transclusões para os linsk de uma página
  * @author: Helder (https://github.com/he7d3r)
  * @license: CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0/>
- * @tracking: [[Special:GlobalUsage/User:Helder.wiki/Tools/WhatTranscludesEachLink.js]] ([[File:User:Helder.wiki/Tools/WhatTranscludesEachLink.js]])
  */
 /*jshint browser: true, devel: true, camelcase: true, curly: true, eqeqeq: true, immed: true, latedef: true, newcap: true, noarg: true, noempty: true, nonew: true, quotmark: true, undef: true, unused: true, strict: true, trailing: true, maxlen: 150, evil: true, onevar: true */
 /*global jQuery, mediaWiki */
