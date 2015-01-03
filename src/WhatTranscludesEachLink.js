@@ -45,7 +45,7 @@
 					action: 'query',
 					list: 'embeddedin',
 					eititle: page,
-					einamespace: '0|102',
+					einamespace: mw.config.get( 'wgContentNamespaces' ).join( '|' ),
 					eilimit: '500',
 					indexpageids: true
 				}, function ( data ) {
