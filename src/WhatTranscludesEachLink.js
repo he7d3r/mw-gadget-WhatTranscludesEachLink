@@ -82,7 +82,8 @@
 			prop: 'links',
 			pllimit: 'max',
 			titles: page,
-			indexpageids: true
+			indexpageids: true,
+			rawcontinue: 1
 		};
 		if ( from ) {
 			data.plcontinue = from;
